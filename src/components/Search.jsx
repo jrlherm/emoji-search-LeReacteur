@@ -13,6 +13,7 @@ const Search = ({ search, setSearch }) => {
         <input
           type="text"
           name="search"
+          placeholder="What emoji are u looking for ?"
           value={search}
           onChange={handleSearch}
         />
